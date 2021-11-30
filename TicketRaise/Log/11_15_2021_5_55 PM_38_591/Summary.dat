@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because contentText does not equal (case-sensitive) &quot;Page:&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEMANwA0ADcARAA1AEYALQBGAEQARgBDAC0ANABEAEUARgAtADgARAA3AEQALQAyADcAQwA5ADcARgA0ADMARAAyAEIANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="23720"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="starttime" type="D" value="44515.7471498495"/>
+						<Prp name="duration" type="I" value="23720"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADMANwAyADQAMwAxADIALQA0ADUARQA0AC0ANABDADcAQQAtAEEAMQA4ADIALQA2ADEAQwA3ADMANgAzAEYANgA4ADcAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="15122"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="starttime" type="D" value="44515.7469748264"/>
+						<Prp name="duration" type="I" value="15122"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44515.7469748264"/>
+				<Prp name="duration" type="I" value="38842"/>
+			</Node>
+		</Node>
+		<Prp name="stop" type="D" value="44515.747425787"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="starttime" type="D" value="44515.7469745255"/>
+		<Prp name="key" type="S" value="{B0A167CE-2E1A-494E-9B0F-340D0F34325D}"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+	</Node>
+</Nodes>

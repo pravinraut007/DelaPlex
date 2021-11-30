@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{DC450F94-75F1-4305-AE24-4BBD777C33DF}"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="403"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44512.5909456366"/>
+					<Prp name="object top" type="I" value="375"/>
+					<Prp name="object left" type="I" value="311"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formClientlogin.passwordboxPasswd"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="563"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.8201135532"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.formClientlogin.passwordboxPasswd&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://delaplex.cloudapp.net:8086/login.php&quot;).FindElement(&quot;#passwd&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The value of the Delaplex.TicketRaise.PasswordIncorrect variable was entered in the text editor."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 9">
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="date" type="D" value="44512.8201190625"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="stack end" type="I" value="1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="date" type="D" value="44512.8201184838"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="Possible cause:&#xA;* The test is run on a computer that is controlled via Remote Desktop, and the Remote Desktop window was minimized on the controlling computer. As a result, the controlled computer's GUI became unavailable and GUI actions cannot be performed.&#xA;&#xA;Possible solutions:&#xA;* Do not minimize the Remote Desktop window on the controlling computer during the test run.&#xA;* Modify the Remote Desktop settings on the controlling computer so that minimizing the Remote Desktop window does not affect the GUI availability on the controlled computer.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageLogin.formClientlogin.submitbuttonSignIn&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://delaplex.cloudapp.net:8086/login.php&quot;).FindElement(&quot;//input[@value='Sign In']&quot;))"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The operation cannot be performed, because the desktop is invisible."/>
+			<Prp name="stack end" type="I" value="0"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="LoginNegative"/>
+			<Prp name="line no" type="I" value="37"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="403"/>
+					<Prp name="click point y" type="I" value="392"/>
+					<Prp name="datetime" type="D" value="44512.5909390393"/>
+					<Prp name="object top" type="I" value="375"/>
+					<Prp name="object left" type="I" value="311"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formClientlogin2.passwordboxPasswd2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="383"/>
+					<Prp name="line #" type="I" value="217"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="563"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.8201075579"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (72, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageLogin.formClientlogin2.passwordboxPasswd2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://delaplex.cloudapp.net:8086/login.php&quot;).FindElement(&quot;#passwd&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="217"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="736"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44512.590896956"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="265"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.8200643634"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="265"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The 'delaPlex Support System - Google Chrome' window was maximized."/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="130"/>
+					<Prp name="click point y" type="I" value="121"/>
+					<Prp name="datetime" type="D" value="44512.5909071528"/>
+					<Prp name="object top" type="I" value="113"/>
+					<Prp name="object left" type="I" value="1031"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageDelaplexSupportSystem.linkSignIn"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="1053"/>
+					<Prp name="line #" type="I" value="209"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1075"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.8200751852"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (22, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageDelaplexSupportSystem.linkSignIn&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://delaplex.cloudapp.net:8086/index.php&quot;).FindElement(&quot;//a[.='Sign In']&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="209"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="360"/>
+					<Prp name="click point y" type="I" value="346"/>
+					<Prp name="datetime" type="D" value="44512.5909321875"/>
+					<Prp name="object top" type="I" value="332"/>
+					<Prp name="object left" type="I" value="311"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formClientlogin.textboxUsername"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="437"/>
+					<Prp name="line #" type="I" value="213"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="563"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.820100162"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="A click at point (126, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageLogin.formClientlogin.textboxUsername&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://delaplex.cloudapp.net:8086/login.php&quot;).FindElement(&quot;#username&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="213"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="360"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44512.5909346412"/>
+					<Prp name="object top" type="I" value="332"/>
+					<Prp name="object left" type="I" value="311"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formClientlogin.textboxUsername"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="215"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="563"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.8201023495"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.formClientlogin.textboxUsername&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://delaplex.cloudapp.net:8086/login.php&quot;).FindElement(&quot;#username&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="215"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'pravin.raut@delaplex.com' was entered in the text editor."/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="403"/>
+					<Prp name="click point y" type="I" value="389"/>
+					<Prp name="datetime" type="D" value="44512.5909428588"/>
+					<Prp name="object top" type="I" value="375"/>
+					<Prp name="object left" type="I" value="311"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formClientlogin.passwordboxPasswd"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="437"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="563"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.8201110301"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="A click at point (126, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageLogin.formClientlogin.passwordboxPasswd&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://delaplex.cloudapp.net:8086/login.php&quot;).FindElement(&quot;#passwd&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="44512.8200630903"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: http://delaplex.cloudapp.net:8086/index.php&#xA;&#xA;Aliases.browser"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="263"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the http://delaplex.cloudapp.net:8086/index.php page."/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

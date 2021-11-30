@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44511.7222144444"/>
+						<Prp name="name" type="S" value="DexaPlexLogout"/>
+						<Prp name="duration" type="I" value="21820"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3ADkARgA3AEIANwBGAEYALQA0ADUANwBFAC0ANAA2ADcANAAtAEIAMgA5ADkALQAyADIARABDADIAQQBDADcARQA4ADAAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="21820"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44511.7220400463"/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="duration" type="I" value="15061"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADIAMQA1AEUAMwA4ADUALQA4ADAAOQBFAC0ANAA1AEYANAAtAEEAOQAwADcALQA4ADcAQQA4ADgAOQAwAEYAOQA4AEUAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="15061"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;selectTopicId&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44511.7224671065"/>
+						<Prp name="name" type="S" value="VerifyTicket"/>
+						<Prp name="duration" type="I" value="29374"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEEARQA0AEMAQQBGAEEALQA1ADUANQAzAC0ANAA1ADIAMAAtADkARABCADAALQBFADUANAA0ADkAQwAwADkANwAxAEUAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="29374"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44511.7218563194"/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="duration" type="I" value="15864"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADYAMABDAEMAOQBEAEMALQAzAEIAMwBDAC0ANAA4ADgANwAtADgAOQA5ADgALQBFAEUANgA5ADYANwAyADcAMwAyAEYAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="15864"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="44511.7218563194"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="duration" type="I" value="82119"/>
+			</Node>
+		</Node>
+		<Prp name="starttime" type="D" value="44511.7218562153"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44511.7228087732"/>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="tests" type="I" value="4"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+		<Prp name="key" type="S" value="{5F3FAC8C-7FDA-4618-8507-EFCB1D43F70F}"/>
+	</Node>
+</Nodes>

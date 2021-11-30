@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44516.4759129977"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADYAOQBEAEMANQA3ADYALQA1ADMAQwA4AC0ANAA1AEEAQwAtAEEAMQAzAEUALQAyADIAOAA3ADYAMwAyAEEAMQBCAEMAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="VerifyCreatedTicket"/>
+						<Prp name="duration" type="I" value="37499"/>
+						<Prp name="durationwithoutchildren" type="I" value="37499"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44516.4755618982"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADQANwBBAEEANQAzADgALQBEADUARgA2AC0ANABCAEEAQgAtAEIAMwAyADQALQAxAEEARgA4AEYAMQAzADAAQQBGADAANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="VerifySearch"/>
+						<Prp name="duration" type="I" value="30325"/>
+						<Prp name="durationwithoutchildren" type="I" value="30325"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44516.4753058333"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEQANAA1ADgARABDAEEALQBGADYAMwA4AC0ANAAwADgAMwAtADgARAA1AEQALQBCADcARgAyAEQAMAA3ADYANgAzAEMAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DexaPlexLogout"/>
+						<Prp name="duration" type="I" value="22114"/>
+						<Prp name="durationwithoutchildren" type="I" value="22114"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44516.4751401968"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3ADYANgBFAEUAQQBCAEYALQBCADAARgAzAC0ANABDADUANQAtAEIARABEADYALQA4ADYARAA0ADIAQgBEADcARAA0ADcANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="duration" type="I" value="14301"/>
+						<Prp name="durationwithoutchildren" type="I" value="14301"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="ReferenceError: page is not defined"/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="44516.4763471296"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADYAOAA0ADAAQgA1AEUALQA0ADEARQAwAC0ANAAwADUANwAtAEIARgA4ADIALQAwAEMANAAzADIAOAA0AEYARABFAEEANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="VerifyClosedTicket"/>
+						<Prp name="duration" type="I" value="19585"/>
+						<Prp name="durationwithoutchildren" type="I" value="19585"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44516.4749489699"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADAAOAA3AEEANwA3ADQALQAwADkARQA0AC0ANABCAEIARgAtAEEAMQBGADMALQA1AEQANABGADcANgBFAEYAOABDADEANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="duration" type="I" value="16510"/>
+						<Prp name="durationwithoutchildren" type="I" value="16510"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="44516.4749489699"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="duration" type="I" value="140334"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="tests" type="I" value="6"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44516.4749398032"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44516.4765757292"/>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{2475ACB7-60B5-4EF0-A884-51154957DF68}"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+	</Node>
+</Nodes>

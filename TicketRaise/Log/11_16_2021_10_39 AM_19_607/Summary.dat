@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to navigate to the http://delaplex.cloudapp.net:8086/index.php page."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44516.4451599421"/>
+						<Prp name="duration" type="I" value="22770"/>
+						<Prp name="name" type="S" value="VerifyTicket"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3ADcAQQA4AEQAMwBCADUALQBDADEANQAyAC0ANABBADcAQwAtADgAMgAxAEIALQA4ADQAQQBGADMAQQA0AEMARQAyAEQAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="22770"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The operation cannot be performed, because the desktop is invisible."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44516.444541169"/>
+						<Prp name="duration" type="I" value="30820"/>
+						<Prp name="name" type="S" value="DexaPlexLogout"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEIAMAAzADEAMwBCAEYALQA5ADUANgA5AC0ANABEAEMARQAtADkAMAA3AEYALQA5AEYANwBFADcAQwA4AEYAMgBGAEUAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="30820"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to navigate to the http://delaplex.cloudapp.net:8086/index.php page."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44516.4448979977"/>
+						<Prp name="duration" type="I" value="22622"/>
+						<Prp name="name" type="S" value="VerifySearch"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADYANQBBAEQAMABGAEQALQAxADQANwBBAC0ANAA0ADQANgAtADkAMwBDADAALQAxAEUAMwA3AEYAOQAzAEIAOQA5ADcARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="22622"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to navigate to the http://delaplex.cloudapp.net:8086/index.php page."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44516.4442756597"/>
+						<Prp name="duration" type="I" value="22931"/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEYARQAzADgANgA5AEUALQA4ADEAMwBCAC0ANAAzADEAOAAtADgAQQA2AEIALQBCAEMAOQAzAEQAQgA0AEIAMQA4ADMAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="22931"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to navigate to the http://delaplex.cloudapp.net:8086/index.php page."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44516.4439770023"/>
+						<Prp name="duration" type="I" value="25794"/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADYAMgA1ADcARABGADcALQA5ADMAMAA5AC0ANABDAEYANgAtADgANAAxADUALQA3AEEAQwAyADUAMQA0ADMAMwAyADgAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="25794"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="5"/>
+				<Prp name="starttime" type="D" value="44516.4439770023"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="duration" type="I" value="124937"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="tests" type="I" value="5"/>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="failedtests" type="I" value="5"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="key" type="S" value="{A0AD23DB-6B60-4609-A296-7840E39ECD6A}"/>
+		<Prp name="stop" type="D" value="44516.4454253356"/>
+		<Prp name="starttime" type="D" value="44516.4439769329"/>
+	</Node>
+</Nodes>

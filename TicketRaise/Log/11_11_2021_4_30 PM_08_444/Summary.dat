@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="13937"/>
+						<Prp name="durationwithoutchildren" type="I" value="13937"/>
+						<Prp name="starttime" type="D" value="44511.6876055208"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADYAMQBGADQAQgAwADQALQAwADgAQgA3AC0ANABFADcAOAAtADkAQgAyADMALQA5AEQARABEADcANgBGADYARQBGAEUAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;linkSignOut&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="20324"/>
+						<Prp name="durationwithoutchildren" type="I" value="20324"/>
+						<Prp name="starttime" type="D" value="44511.6879261227"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADkARgAyADUAMAA3AEQALQBFADUAOQAzAC0ANABEADEAOQAtAEIANgAxAEYALQBDADQANQAxADcARgAwADMAMQBCAEUAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DexaPlexLogout"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="13743"/>
+						<Prp name="durationwithoutchildren" type="I" value="13743"/>
+						<Prp name="starttime" type="D" value="44511.6877669444"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADMAMAAzAEMAMQAyADUALQAxADUAOQBEAC0ANAA4ADEAOAAtADgAMABFADcALQAxADYAMAA2AEQAOQA1ADcAMQBDAEYAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="48004"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="44511.6876055208"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44511.6881628819"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="starttime" type="D" value="44511.6875978472"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="key" type="S" value="{0B8CAC5C-A34C-45DB-A3D8-286FDE76B5B8}"/>
+	</Node>
+</Nodes>

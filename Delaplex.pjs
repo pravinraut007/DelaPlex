@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{E7AF2E7E-B586-437B-8401-DA38B0D0E068}">
+	<children>
+		<child name="TicketRaise" key="{907511CF-6115-4D39-9814-95BE07A6B222}" path="TicketRaise\TicketRaise.mds" />
+	</children>
+	<testItems key="{C3DE30AA-390D-4A83-ACA2-561E1538E967}">
+		<children>
+			<testItem key="{907511CF-6115-4D39-9814-95BE07A6B222}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D2134459-6D52-49EC-8A6E-59F44DBDB6B6}" />
+	<analysis key="{F0755321-4F7C-44C1-985E-B7E56C5744C1}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

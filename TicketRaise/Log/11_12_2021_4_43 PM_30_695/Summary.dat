@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;passwordboxPasswd&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="15648"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEIAQQA4AEYARQBDAEUALQBDADEAMABEAC0ANABCAEEAQwAtAEEARABCAEUALQAwAEEANQA1ADgAMwBCADgAQgAyAEMANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="durationwithoutchildren" type="I" value="15648"/>
+						<Prp name="starttime" type="D" value="44512.6968863889"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;linkSignOut&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="15521"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADcARQA1AEYAQgBEADgALQA2ADQAMwA1AC0ANAA2ADYARgAtAEEAMwAxADkALQBGAEMAMQA0AEUAOAA3ADUAOQAyADAARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DexaPlexLogout"/>
+						<Prp name="durationwithoutchildren" type="I" value="15521"/>
+						<Prp name="starttime" type="D" value="44512.6972483449"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;selectTopicId&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="15740"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEYAMQA0ADYAOABCADcALQBDADkAQwAwAC0ANAAyAEIANgAtAEEANAAxAEUALQBEAEQAQQA0ADkAOABCAEEARgBCADQAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="VerifySearch"/>
+						<Prp name="durationwithoutchildren" type="I" value="15740"/>
+						<Prp name="starttime" type="D" value="44512.6976098032"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="15595"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADcANAA1ADcAMAA4ADEALQAzADcAMQAzAC0ANABEADYARQAtADkAQgA4ADAALQAwAEEARgA4ADcAOAAyADkAQgBGADIAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="durationwithoutchildren" type="I" value="15595"/>
+						<Prp name="starttime" type="D" value="44512.6970677315"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="15689"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEUAMgA4ADMAQwBCAEUALQAyADAAMwBBAC0ANABDADUANwAtAEIANgBDADAALQBFADAAMwA5ADAANABBADIAOABGAEEANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="VerifyTicket"/>
+						<Prp name="durationwithoutchildren" type="I" value="15689"/>
+						<Prp name="starttime" type="D" value="44512.6974281018"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="5"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="78193"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44512.6968863889"/>
+			</Node>
+		</Node>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44512.6968831597"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="5"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="failedtests" type="I" value="5"/>
+		<Prp name="stop" type="D" value="44512.6977930324"/>
+		<Prp name="key" type="S" value="{8715BD99-283B-4DD4-8D5F-534C380C381A}"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+	</Node>
+</Nodes>

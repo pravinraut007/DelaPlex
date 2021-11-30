@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="15005"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="starttime" type="D" value="44516.4461823495"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4AEIAQQAwADYAQgAzAEQALQBGAEQANQAyAC0ANAA0AEYANQAtAEIAQwA5AEQALQAzAEQARABEADcAOAA3AEYARgBGAEQAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="15005"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="40344"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="VerifyTicket"/>
+						<Prp name="starttime" type="D" value="44516.447145"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADkAMQAwAEMAQwAxADgALQBBAEYARABGAC0ANAA2AEUAQwAtADgANAA5ADgALQA3ADYAMgA3AEUAOQBGADEARQA3ADcANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="40344"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="14493"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="starttime" type="D" value="44516.4463561343"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADkAOQA2AEEANAA0AEIALQAyADAAOABEAC0ANABDADcAMQAtAEIAMAAyADcALQAyADYAOAA1ADAAOQA3AEIAMwA3ADcARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="14493"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="22270"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="DexaPlexLogout"/>
+						<Prp name="starttime" type="D" value="44516.4465239931"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADQAMAA3AEYAMQBFADIALQAzAEYANABGAC0ANABEADcAMwAtADkAQgAwADgALQAyADEAOAA5AEYAQgAzADEAOABFADQAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="22270"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="31385"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="VerifySearch"/>
+						<Prp name="starttime" type="D" value="44516.4467817477"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEUARQAwADgANQAzAEEALQBDADkAMAA5AC0ANABGAEEAQgAtADkAMQAwADMALQBFAEIANgA1ADEAMgAwADMAQwA1AEMARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="31385"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="123497"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="starttime" type="D" value="44516.4461823495"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44516.4461775"/>
+		<Prp name="stop" type="D" value="44516.4476136343"/>
+		<Prp name="tests" type="I" value="5"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="key" type="S" value="{026DC9BA-29B5-4833-94F6-D11A64582EF4}"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

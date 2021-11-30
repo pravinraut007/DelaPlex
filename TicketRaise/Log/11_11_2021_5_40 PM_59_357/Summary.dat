@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;pageLogin&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44511.7367984259"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBAEIAOABEAEYAOQBCADQALQBEAEMAMgBDAC0ANAA2ADgAOAAtADkANgAwAEMALQAxADcAOQBGAEYAQgA0ADIAMABEADEARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="42926"/>
+						<Prp name="name" type="S" value="DelaPlexNotLogin"/>
+						<Prp name="durationwithoutchildren" type="I" value="42926"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44511.7373608102"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="VerifyTicket"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44511.7373608102"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="DexaPlexLogout"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44511.7372952546"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEIAQgA1ADgARgBBADYALQAwAEMAQgAyAC0ANAAzADEARQAtADkAMwBGADgALQAwAEEARQAyADcAMwA5AEQAMQAyADgAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="5654"/>
+						<Prp name="name" type="S" value="DelaPlexLogin"/>
+						<Prp name="durationwithoutchildren" type="I" value="5654"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44511.7367984259"/>
+				<Prp name="duration" type="I" value="48580"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="name" type="S" value="TicketRaise"/>
+				<Prp name="incompletedtests" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="44511.7367983449"/>
+		<Prp name="tests" type="I" value="4"/>
+		<Prp name="user" type="S" value="Pravin.Raut"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="2"/>
+		<Prp name="testname" type="S" value="TicketRaise"/>
+		<Prp name="name" type="S" value="Delaplex"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="DPSYS039"/>
+		<Prp name="key" type="S" value="{848C17E6-57C9-4232-8204-93098BA3B6EC}"/>
+		<Prp name="stop" type="D" value="44511.7373621759"/>
+	</Node>
+</Nodes>

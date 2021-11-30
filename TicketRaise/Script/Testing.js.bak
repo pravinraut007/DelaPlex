@@ -1,0 +1,16 @@
+﻿function Test1()
+{
+  Browsers.Item(btChrome).Navigate("http://delaplex.cloudapp.net:8086/index.php");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  browser.pageDelaplexSupportSystem.linkSignIn.Click();
+  let page = browser.pageLogin;
+  page.Wait();
+  let textbox = page.formClientlogin;
+  let textbox2 = textbox.textboxUsername;
+  textbox2.Click();
+  textbox2.Keys("pravin.raut@delaplex.com");
+  textbox.passwordboxPasswd.Click();
+  page.panelNotYetRegistered2.Click(54, 121);
+  textbox.submitbuttonSignIn.ClickButton();
+}

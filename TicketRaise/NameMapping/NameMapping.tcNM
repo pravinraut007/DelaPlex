@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{10E2EB7D-49AF-422B-85A4-1F7660A4A8D4}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{C81EAC48-523D-4B44-80FF-4158D68E533A}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{63735590-BE15-4538-B046-177731A9969E}">
+								<Image FileName="-544858987" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageDelaplexSupportSystem" Key="{CA1336FA-91CC-4ABF-8648-F648DE06376A}">
+								<Image FileName="-544858987" Left="0" Top="103" Right="1366" Bottom="728" />
+								<TypeInfo Item0="{DCC75B42-F6C7-4D9F-BDBD-FE3F41260312}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://delaplex.cloudapp.net:8086/index.php" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkSignIn" Key="{F18EEF3F-81DD-4621-A8A4-0DD016F6D9D6}">
+										<Image FileName="1915629968" Left="1031" Top="113" Right="1075" Bottom="130" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header&apos;]//p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{2CEEB6DB-109C-47AC-9E74-BF834A8EC201}">
+										<Image FileName="-563497369" Left="675" Top="103" Right="1075" Bottom="130" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header&apos;]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{D038D8A4-2ED3-4DA0-AB47-FFD6626FCB20}">
+								<Image FileName="-544858987" Left="0" Top="103" Right="1366" Bottom="728" />
+								<TypeInfo Item0="{DCC75B42-F6C7-4D9F-BDBD-FE3F41260312}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://delaplex.cloudapp.net:8086/login.php" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formClientlogin" Key="{BF85EA76-CA7C-4254-89A2-21CDE922BD78}">
+										<Image FileName="1364666382" Left="275" Top="296" Right="1075" Bottom="492" />
+										<Selectors>
+											<Selector>
+												<Value Value="#clientLogin" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Not yet registered?&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;login.php&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{70798B8A-21CE-49BA-B6A3-DCE2DED9C02C}">
+										<Image FileName="1364666382" Left="311" Top="332" Right="563" Bottom="360" />
+										<TypeInfo Item0="{608A98AD-34B5-4D27-A46B-3587A1EC37CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;luser&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;nowarn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{722CE51A-1B94-4B22-8075-0C0F96E89095}">
+										<Image FileName="-444787755" Left="311" Top="375" Right="563" Bottom="403" />
+										<TypeInfo Item0="{608A98AD-34B5-4D27-A46B-3587A1EC37CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#passwd" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;lpasswd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[contains(@class, &apos;nowarn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{1F33A7C0-C491-4DE1-B5AD-302737D8618B}">
+										<Image FileName="1991124038" Left="311" Top="418" Right="377" Bottom="442" />
+										<TypeInfo Item0="{BB109A70-0161-446F-97E7-B20414A9FC74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//p/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMsgError" Key="{40E8F2EC-131B-42EF-9A4C-BBA817644E69}">
+										<Image FileName="1531184361" Left="275" Top="221" Right="1075" Bottom="249" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#msg_error" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Access denied&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContent" Key="{909E9EB0-4BF8-4854-863E-CA5C141955F1}">
+										<Image FileName="-886491401" Left="275" Top="201" Right="1075" Bottom="634" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formClientlogin2" Key="{BA13A232-295C-4932-9814-4C06E162D826}">
+										<Image FileName="1531184361" Left="275" Top="334" Right="1075" Bottom="552" />
+										<Selectors>
+											<Selector>
+												<Value Value="#clientLogin" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Forgot My Password&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;login.php&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd2" Key="{7578C62F-4003-42F6-BE3A-3F719251CC51}">
+										<Image FileName="-886491401" Left="311" Top="413" Right="563" Bottom="441" />
+										<TypeInfo Item0="{608A98AD-34B5-4D27-A46B-3587A1EC37CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#passwd" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;lpasswd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Pmmgrv1432&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[contains(@class, &apos;nowarn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNotYetRegistered" Key="{49505BCB-9B89-47C4-8524-2429AE4C3B3B}">
+										<Image FileName="302133169" Left="593" Top="332" Right="986" Bottom="349" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Not yet registered?&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//div[2]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeIMAnAgent" Key="{4C29A639-02A4-42A2-A8DA-D8095A693472}">
+										<Image FileName="1480648203" Left="593" Top="354" Right="674" Bottom="370" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&quot;I&apos;m an agent&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//b" />
+											</Selector>
+											<Selector>
+												<Value Value="//b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelIMAnAgent" Key="{18563E81-C6EC-48F3-9EE3-4763349D6679}">
+										<Image FileName="-807236568" Left="593" Top="354" Right="986" Bottom="371" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//div[2]/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignInHere" Key="{6E6CFCC6-EE1E-41BF-BB26-271CE1B862E1}">
+										<Image FileName="1358406802" Left="695" Top="354" Right="767" Bottom="371" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;sign in here&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;clientLogin&apos;]//div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNotYetRegistered2" Key="{E23E6267-7375-404C-84A4-0935F57B9B37}" ExtendedFind="True">
+										<Image FileName="1276745366" Left="578" Top="317" Right="1001" Bottom="471" />
+										<TypeInfo Item0="{DEFFD4B4-099A-4CB3-B86B-84F846DE999B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="4E006F0074002000790065007400200072006500670069007300740065007200650064003F000A00430072006500610074006500200061006E0020006100630063006F0075006E0074000A00490027006D00200061006E0020006100670065006E0074000A0014200A007300690067006E00200069006E0020006800650072006500" Type="7" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTickets" Key="{98FCCB1F-7AEB-4F5F-A37F-545429BDD6B6}">
+								<Image FileName="-544858987" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://delaplex.cloudapp.net:8086/tickets.php*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeNav" Key="{18313C4D-6746-47FD-A7A5-E4877A581B98}">
+										<Image FileName="-2112222734" Left="275" Top="176" Right="1075" Bottom="201" />
+										<Selectors>
+											<Selector>
+												<Value Value="#nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Support Center Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;flush-left&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSupportCenterHome" Key="{0D7704CD-A53B-4E53-8536-9B772D07587D}">
+										<Image FileName="-2112222734" Left="295" Top="179" Right="473" Bottom="200" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Support Center Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;nav&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOpenANewTicket" Key="{0874A0C8-F3F1-4333-91FD-53F4798B6907}">
+										<Image FileName="-218903732" Left="487" Top="179" Right="647" Bottom="200" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Open a New Ticket&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;new&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;nav&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPage" Key="{F21B7B87-0361-491C-B118-9E3A37BD0570}">
+										<Image FileName="645256446" Left="275" Top="470" Right="1075" Bottom="487" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Page:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignOut" Key="{4046DD8B-B864-47B4-A17E-8C3173059EF8}">
+										<Image FileName="1729742974" Left="1020" Top="113" Right="1074" Bottom="130" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign Out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header&apos;]//a[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTickets8" Key="{69E50B09-8BEE-4ED1-8266-4CC9C603BD2F}">
+										<Image FileName="-1978498669" Left="661" Top="179" Right="768" Bottom="200" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Tickets (8)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;tickets&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;nav&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formTicketsearchform" Key="{D67BBFB3-26DE-489A-BFB7-D332DFA576DB}">
+										<Image FileName="646210692" Left="285" Top="216" Right="1065" Bottom="238" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ticketSearchForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Help Topic:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;tickets.php&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectTopicId" Key="{186AAEEF-24D7-4D46-91B3-CDBE0378ED23}">
+										<Image FileName="318206691" Left="810" Top="216" Right="1065" Bottom="236" />
+										<TypeInfo Item0="{344E054B-4B20-43F2-9FE5-A25AACCF335A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@name=&apos;topic_id&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[contains(@class, &apos;nowarn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;ticketSearchForm&apos;]//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTickets" Key="{5C488FF4-1693-4B91-B460-F250342F0D92}">
+										<Image FileName="-1215857310" Left="275" Top="258" Right="1075" Bottom="282" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(., &apos;Tickets&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{AD502669-B702-4ECA-BE9D-0621BB02EE01}">
+										<Image FileName="1130150267" Left="612" Top="346" Right="943" Bottom="371" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(., &apos;MS Office installation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{D0E39D73-37EB-4E0B-B73F-D7E873627E76}">
+										<Image FileName="1130150267" Left="370" Top="346" Right="501" Bottom="371" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;11/11/21&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{E8BDF4B5-7F8F-44B9-8011-DB89DFA0BDB6}">
+										<Image FileName="1614883069" Left="275" Top="346" Right="370" Bottom="371" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(., &apos;562346&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link562346" Key="{7446AFBC-639D-44FF-BCAD-6B7F58DC3CAA}">
+										<Image FileName="334315179" Left="281" Top="349" Right="348" Bottom="366" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;562346&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/a[@title=&apos;pravin.raut@delaplex.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/a[contains(@class, &apos;Icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell4" Key="{862050FA-BC41-42E5-B16C-D1F1865C357E}">
+										<Image FileName="1117326733" Left="501" Top="346" Right="612" Bottom="371" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Open&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell5" Key="{B11E89E7-2ED2-4F14-8EE5-9D54689AE706}">
+										<Image FileName="1521736731" Left="943" Top="346" Right="1074" Bottom="371" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Internal Support&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInternalSupport" Key="{E38DAF1B-4B5D-4BCA-8940-431DA7DBCCE8}">
+										<Image FileName="791715932" Left="949" Top="349" Right="1049" Bottom="366" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Internal Support&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/span[contains(@class, &apos;truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMsOfficeInstallation" Key="{01B71A2E-BD68-461E-AB40-B4A115947234}">
+										<Image FileName="-1645629603" Left="618" Top="349" Right="749" Bottom="367" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;MS Office installation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/div[contains(@class, &apos;link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]//tr/td/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell6" Key="{455C74BD-B1F8-441F-A2D3-0145C91C90FA}">
+										<Image FileName="1103157462" Left="392" Top="289" Right="674" Bottom="313" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Open&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//td/table/tbody/tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/table/tbody/tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell7" Key="{4FD1A8FB-8807-4D6D-BDAF-DAD1C8B49D3D}">
+										<Image FileName="-1128905739" Left="392" Top="313" Right="674" Bottom="336" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Internal Support&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//tr[2]/td//tr[2]/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td//tr[2]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell8" Key="{5A45C785-DBE0-4B35-991D-760E38ADA7BD}">
+										<Image FileName="-604576690" Left="392" Top="336" Right="674" Bottom="359" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;11/11/21 13:26:42&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//tr[2]/td//tr[3]/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td//tr[3]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell9" Key="{6695D04F-83EF-44CB-9D6A-41F9C7F69210}">
+										<Image FileName="-1678290275" Left="792" Top="313" Right="1074" Bottom="336" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;pravin.raut@delaplex.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//tr[2]/td[2]//tr[2]/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]//tr[2]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell10" Key="{8CF77D02-E8CD-439B-9DCB-52DC00CA2503}">
+										<Image FileName="-553222562" Left="475" Top="397" Right="1074" Bottom="423" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;IDC 1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//tr[3]/td//tr[2]/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td//tr[2]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMsOfficeInstallation" Key="{A77B3B3F-0727-44BD-9D08-B0CDD696EA9F}">
+										<Image FileName="-701746721" Left="295" Top="223" Right="504" Bottom="245" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[contains(text(), &apos;MS Office installation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//b" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMsOfficeInstallation2" Key="{D99156EA-63F2-42A7-AD11-87D8F08F5BE4}">
+										<Image FileName="-1525420889" Left="276" Top="222" Right="1074" Bottom="258" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(., &apos;MS Office installation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="time111121132643" Key="{47426C41-0176-41B1-BADA-5CC93715015B}">
+										<Image FileName="23849202" Left="518" Top="228" Right="629" Bottom="244" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//time[.=&apos;11/11/21 13:26:43&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/time[@title=&apos;11/11/21 13:26:43&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ticketThread&apos;]//div/time" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/time" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelINeedToOffline" Key="{0F3D54F1-37B2-4C56-9055-F6451D555B07}">
+										<Image FileName="651733864" Left="348" Top="267" Right="1061" Bottom="339" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;I need to offline&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ticketThread&apos;]//div[2]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="time1111211326432" Key="{1FFDA49D-90AB-490B-A996-A04AB994BBBE}">
+										<Image FileName="1123262933" Left="600" Top="378" Right="711" Bottom="394" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span/time[@title=&apos;11/11/21 13:26:43&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ticketThread&apos;]//span/time" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/time" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreatedBy" Key="{907822BA-B514-4240-B26A-F360B2A90B35}">
+										<Image FileName="940058713" Left="344" Top="371" Right="1015" Bottom="398" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Created by&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/span[contains(@class, &apos;faded&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ticketThread&apos;]//span[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/span[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePravinkumarRaut" Key="{60241075-C4E7-4141-BF68-F1B4DCC10AD4}">
+										<Image FileName="-563864060" Left="446" Top="378" Right="596" Bottom="394" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ticketThread&apos;]//span/b" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell11" Key="{2B20FEDE-E21C-44AC-8D8B-84824896714C}">
+										<Image FileName="-1694469988" Left="792" Top="269" Right="1074" Bottom="293" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Pravinkumar Raut&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//td[2]/table/tbody/tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/table/tbody/tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePravinkumarRaut2" Key="{46E8EEDB-DB44-447A-BB06-4E5D8C3B3C0C}">
+										<Image FileName="-1186373599" Left="675" Top="103" Right="1075" Bottom="130" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;Pravinkumar Raut&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxKeywords" Key="{9222802A-A086-4A72-9513-284A422B4AD8}">
+										<Image FileName="1080324239" Left="285" Top="216" Right="533" Bottom="238" />
+										<TypeInfo Item0="{608A98AD-34B5-4D27-A46B-3587A1EC37CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;keywords&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;ticketSearchForm&apos;]/input[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelClearAllFiltersAndSort" Key="{844F3066-B8B6-4942-A53B-E4D3ADB6AF29}">
+										<Image FileName="723755891" Left="285" Top="248" Right="1065" Bottom="265" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//div/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSearch" Key="{75DEFB2F-6D17-4246-ABAF-E612B9F6486F}">
+										<Image FileName="-324840984" Left="536" Top="216" Right="596" Bottom="238" />
+										<TypeInfo Item0="{BB109A70-0161-446F-97E7-B20414A9FC74}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;ticketSearchForm&apos;]/input[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPravinkumarRaut" Key="{B62DA6FA-6C88-414D-AAFD-8D6D87BA988A}">
+										<Image FileName="-553222562" Left="335" Top="443" Right="1075" Bottom="478" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelINeedToOffline2" Key="{7BD78194-DD5E-4C74-BDBF-8416D12B1B62}">
+										<Image FileName="1914751396" Left="335" Top="478" Right="1075" Bottom="578" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;thread-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOpen" Key="{8EFAADC5-8EEF-4864-B1FB-AD9E54BC41E7}">
+										<Image FileName="1251360891" Left="954" Top="291" Right="994" Bottom="308" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//small/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//small/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContent" Key="{2B78D798-079F-4D87-B5B8-9728A7BACBA2}">
+										<Image FileName="2075740568" Left="275" Top="201" Right="1075" Bottom="591" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClosed3" Key="{B18781FC-243F-4CFC-858D-91B4097AC08C}">
+										<Image FileName="395509068" Left="1010" Top="291" Right="1075" Bottom="308" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Closed (3)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//a[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//small/a[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="caption" Key="{89868357-D587-42A4-AA09-7C2FBDF3BCAD}">
+										<Image FileName="-1428313591" Left="275" Top="319" Right="1075" Bottom="347" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//caption[contains(text(), &apos;Showing&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketTable&apos;]/caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//caption" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCreatingTheVpnForVm" Key="{985BCA3B-78A7-469A-9E91-A423F40348FB}">
+										<Image FileName="-201134481" Left="288" Top="419" Right="1001" Bottom="511" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Done&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ticketThread&apos;]//div[3]/div/div[2]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClosedBy" Key="{D7D2E96F-41C6-49EC-9B3B-4AC50050BF94}">
+										<Image FileName="-393126035" Left="343" Top="268" Right="1014" Bottom="295" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Closed by&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/span[contains(@class, &apos;faded&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ticketThread&apos;]//div[4]/span[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/span[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode578835" Key="{39A85794-B20F-4083-BCB2-C0B369E2D5FC}">
+										<Image FileName="10086651" Left="464" Top="226" Right="530" Bottom="245" />
+										<TypeInfo Item0="{9944A7AD-26F6-4E9E-B44F-63E4BF5B9435}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//small[.=&apos;#578835&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;ticketInfo&apos;]//small" />
+											</Selector>
+											<Selector>
+												<Value Value="//small" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{E3E16CEE-2E71-4056-95A4-0110CEFAA06F}">
+								<Image FileName="1713902976" Left="0" Top="0" Right="255" Bottom="38" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{F656B7F1-8295-4530-A740-FBB99DC4787A}">
+										<Image FileName="1713902976" Left="0" Top="0" Right="255" Bottom="38" />
+										<TypeInfo Item0="{93D6CB53-1344-4D27-8D38-69127D2E69ED}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{C81EAC48-523D-4B44-80FF-4158D68E533A}">
+			<Child Name="BrowserWindow" Owner="{63735590-BE15-4538-B046-177731A9969E}" />
+			<Child Name="pageDelaplexSupportSystem" Owner="{CA1336FA-91CC-4ABF-8648-F648DE06376A}">
+				<Child Name="linkSignIn" Owner="{F18EEF3F-81DD-4621-A8A4-0DD016F6D9D6}" />
+				<Child Name="textnodeSignIn" Owner="{2CEEB6DB-109C-47AC-9E74-BF834A8EC201}" />
+			</Child>
+			<Child Name="pageLogin" Owner="{D038D8A4-2ED3-4DA0-AB47-FFD6626FCB20}">
+				<Child Name="formClientlogin" Owner="{BF85EA76-CA7C-4254-89A2-21CDE922BD78}">
+					<Child Name="textboxUsername" Owner="{70798B8A-21CE-49BA-B6A3-DCE2DED9C02C}" />
+					<Child Name="passwordboxPasswd" Owner="{722CE51A-1B94-4B22-8075-0C0F96E89095}" />
+					<Child Name="submitbuttonSignIn" Owner="{1F33A7C0-C491-4DE1-B5AD-302737D8618B}" />
+					<Child Name="panelNotYetRegistered" Owner="{49505BCB-9B89-47C4-8524-2429AE4C3B3B}" />
+					<Child Name="textnodeIMAnAgent" Owner="{4C29A639-02A4-42A2-A8DA-D8095A693472}" />
+					<Child Name="panelIMAnAgent" Owner="{18563E81-C6EC-48F3-9EE3-4763349D6679}" />
+					<Child Name="linkSignInHere" Owner="{6E6CFCC6-EE1E-41BF-BB26-271CE1B862E1}" />
+				</Child>
+				<Child Name="panelMsgError" Owner="{40E8F2EC-131B-42EF-9A4C-BBA817644E69}" />
+				<Child Name="panelContent" Owner="{909E9EB0-4BF8-4854-863E-CA5C141955F1}" />
+				<Child Name="formClientlogin2" Owner="{BA13A232-295C-4932-9814-4C06E162D826}">
+					<Child Name="passwordboxPasswd2" Owner="{7578C62F-4003-42F6-BE3A-3F719251CC51}" />
+				</Child>
+				<Child Name="panelNotYetRegistered2" Owner="{E23E6267-7375-404C-84A4-0935F57B9B37}" />
+			</Child>
+			<Child Name="pageTickets" Owner="{98FCCB1F-7AEB-4F5F-A37F-545429BDD6B6}">
+				<Child Name="textnodeNav" Owner="{18313C4D-6746-47FD-A7A5-E4877A581B98}">
+					<Child Name="linkSupportCenterHome" Owner="{0D7704CD-A53B-4E53-8536-9B772D07587D}" />
+					<Child Name="linkOpenANewTicket" Owner="{0874A0C8-F3F1-4333-91FD-53F4798B6907}" />
+					<Child Name="linkTickets8" Owner="{69E50B09-8BEE-4ED1-8266-4CC9C603BD2F}" />
+				</Child>
+				<Child Name="panelPage" Owner="{F21B7B87-0361-491C-B118-9E3A37BD0570}" />
+				<Child Name="linkSignOut" Owner="{4046DD8B-B864-47B4-A17E-8C3173059EF8}" />
+				<Child Name="formTicketsearchform" Owner="{D67BBFB3-26DE-489A-BFB7-D332DFA576DB}">
+					<Child Name="selectTopicId" Owner="{186AAEEF-24D7-4D46-91B3-CDBE0378ED23}" />
+					<Child Name="textboxKeywords" Owner="{9222802A-A086-4A72-9513-284A422B4AD8}" />
+					<Child Name="submitbuttonSearch" Owner="{75DEFB2F-6D17-4246-ABAF-E612B9F6486F}" />
+				</Child>
+				<Child Name="textnodeTickets" Owner="{5C488FF4-1693-4B91-B460-F250342F0D92}" />
+				<Child Name="cell" Owner="{AD502669-B702-4ECA-BE9D-0621BB02EE01}" />
+				<Child Name="cell2" Owner="{D0E39D73-37EB-4E0B-B73F-D7E873627E76}" />
+				<Child Name="cell3" Owner="{E8BDF4B5-7F8F-44B9-8011-DB89DFA0BDB6}" />
+				<Child Name="link562346" Owner="{7446AFBC-639D-44FF-BCAD-6B7F58DC3CAA}" />
+				<Child Name="cell4" Owner="{862050FA-BC41-42E5-B16C-D1F1865C357E}" />
+				<Child Name="cell5" Owner="{B11E89E7-2ED2-4F14-8EE5-9D54689AE706}" />
+				<Child Name="textnodeInternalSupport" Owner="{E38DAF1B-4B5D-4BCA-8940-431DA7DBCCE8}" />
+				<Child Name="panelMsOfficeInstallation" Owner="{01B71A2E-BD68-461E-AB40-B4A115947234}" />
+				<Child Name="cell6" Owner="{455C74BD-B1F8-441F-A2D3-0145C91C90FA}" />
+				<Child Name="cell7" Owner="{4FD1A8FB-8807-4D6D-BDAF-DAD1C8B49D3D}" />
+				<Child Name="cell8" Owner="{5A45C785-DBE0-4B35-991D-760E38ADA7BD}" />
+				<Child Name="cell9" Owner="{6695D04F-83EF-44CB-9D6A-41F9C7F69210}" />
+				<Child Name="cell10" Owner="{8CF77D02-E8CD-439B-9DCB-52DC00CA2503}" />
+				<Child Name="textnodeMsOfficeInstallation" Owner="{A77B3B3F-0727-44BD-9D08-B0CDD696EA9F}" />
+				<Child Name="textnodeMsOfficeInstallation2" Owner="{D99156EA-63F2-42A7-AD11-87D8F08F5BE4}" />
+				<Child Name="time111121132643" Owner="{47426C41-0176-41B1-BADA-5CC93715015B}" />
+				<Child Name="panelINeedToOffline" Owner="{0F3D54F1-37B2-4C56-9055-F6451D555B07}" />
+				<Child Name="time1111211326432" Owner="{1FFDA49D-90AB-490B-A996-A04AB994BBBE}" />
+				<Child Name="textnodeCreatedBy" Owner="{907822BA-B514-4240-B26A-F360B2A90B35}" />
+				<Child Name="textnodePravinkumarRaut" Owner="{60241075-C4E7-4141-BF68-F1B4DCC10AD4}" />
+				<Child Name="cell11" Owner="{2B20FEDE-E21C-44AC-8D8B-84824896714C}" />
+				<Child Name="textnodePravinkumarRaut2" Owner="{46E8EEDB-DB44-447A-BB06-4E5D8C3B3C0C}" />
+				<Child Name="panelClearAllFiltersAndSort" Owner="{844F3066-B8B6-4942-A53B-E4D3ADB6AF29}" />
+				<Child Name="panelPravinkumarRaut" Owner="{B62DA6FA-6C88-414D-AAFD-8D6D87BA988A}" />
+				<Child Name="panelINeedToOffline2" Owner="{7BD78194-DD5E-4C74-BDBF-8416D12B1B62}" />
+				<Child Name="linkOpen" Owner="{8EFAADC5-8EEF-4864-B1FB-AD9E54BC41E7}" />
+				<Child Name="panelContent" Owner="{2B78D798-079F-4D87-B5B8-9728A7BACBA2}" />
+				<Child Name="linkClosed3" Owner="{B18781FC-243F-4CFC-858D-91B4097AC08C}" />
+				<Child Name="caption" Owner="{89868357-D587-42A4-AA09-7C2FBDF3BCAD}" />
+				<Child Name="panelCreatingTheVpnForVm" Owner="{985BCA3B-78A7-469A-9E91-A423F40348FB}" />
+				<Child Name="textnodeClosedBy" Owner="{D7D2E96F-41C6-49EC-9B3B-4AC50050BF94}" />
+				<Child Name="textnode578835" Owner="{39A85794-B20F-4083-BCB2-C0B369E2D5FC}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{E3E16CEE-2E71-4056-95A4-0110CEFAA06F}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{F656B7F1-8295-4530-A740-FBB99DC4787A}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

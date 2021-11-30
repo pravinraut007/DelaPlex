@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="DelaplexTicket" key="{DC450F94-75F1-4305-AE24-4BBD777C33DF}" path="DelaplexTicket.js" />
+		<child name="Test" key="{D301E05E-F198-4820-BD13-865977C1D806}" path="Test.js" />
+		<child name="Base" key="{F3BA3119-F3FF-402E-90E8-0D013D39D29A}" path="Base.js" />
+		<child name="Testing" key="{285F579E-4BEE-40D5-A398-0B495BA02B4B}" path="Testing.js" />
+	</children>
+</Root>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="start time" type="D" value="44515.4525743519"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="name" type="S" value="DexaPlexLogout [Script\DelaplexTicket - LogoutDashboard]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44515.4528279167"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{9AB18644-33D3-46FA-A042-34118D4BDA8A}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="start time" type="D" value="44515.4531782523"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="name" type="S" value="VerifyTicket [Script\DelaplexTicket - ToVerifyCreatedTicket]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44515.453615787"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{6EF5B06F-4A3E-43AE-8FA6-C2D5C745422F}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="start time" type="D" value="44515.4524056366"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="name" type="S" value="DelaPlexLogin [Script\DelaplexTicket - LoginPositive]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44515.4525742361"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{F69634CB-0FDA-47D5-BCD0-79B0D6E58C86}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="start time" type="D" value="44515.4522519792"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="name" type="S" value="DelaPlexNotLogin [Script\DelaplexTicket - LoginNegative]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44515.4524055208"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{A7C22615-3337-455B-AEF7-673F09BFFAD6}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="start time" type="D" value="44515.4528280324"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="name" type="S" value="VerifySearch [Script\DelaplexTicket - VerifySearch]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44515.4531781366"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{9F783585-9F85-40FB-8733-42370EFB021D}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

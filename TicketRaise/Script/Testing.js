@@ -1,0 +1,81 @@
+﻿function Test1()
+{
+  Browsers.Item(btChrome).Navigate("http://delaplex.cloudapp.net:8086/index.php");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  browser.pageDelaplexSupportSystem.linkSignIn.Click();
+  let page = browser.pageLogin;
+  page.Wait();
+  let textbox = page.formClientlogin;
+  let textbox2 = textbox.textboxUsername;
+  textbox2.Click();
+  textbox2.Keys("pravin.raut@delaplex.com");
+  textbox.passwordboxPasswd.Click();
+  page.panelNotYetRegistered2.Click(54, 121);
+  textbox.submitbuttonSignIn.ClickButton();
+}
+
+function Test2()
+{
+  Browsers.Item(btChrome).Navigate("http://delaplex.cloudapp.net:8086/index.php");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  browser.pageDelaplexSupportSystem.linkSignIn.Click();
+  let page = browser.pageLogin;
+  page.Wait();
+  let textbox = page.formClientlogin;
+  let textbox2 = textbox.textboxUsername;
+  textbox2.SetText("pravin.raut@delaplex.com");
+  textbox2.Keys("[Tab]");
+  let passwordBox = textbox.passwordboxPasswd;
+  passwordBox.SetText(Project.Variables.Password1);
+  passwordBox.SetText(Project.Variables.PasswordCorrect);
+  textbox.submitbuttonSignIn.ClickButton();
+  page = browser.pageTickets;
+  page.Wait();
+  page.formTicketsearchform.selectTopicId.ClickItem(1);
+  page.Wait();
+  let link = page.linkClosed3;
+  aqObject.CheckProperty(link, "contentText", cmpEqual, "Closed (3)");
+  let caption = page.caption;
+  caption.Drag(217, 16, -218, -3);
+  link.Click();
+  page.Wait();
+  caption.Click();
+  caption.Click();
+  caption.Drag(8, 15, 218, 0);
+  aqObject.CheckProperty(caption, "contentText", cmpEqual, "Showing 1 - 3 of 3 Closed Tickets");
+  let cell = page.cell4;
+  cell.Drag(6, 11, 34, 0);
+  cell.DblClick(40, 11);
+  aqObject.CheckProperty(cell, "contentText", cmpEqual, "Closed");
+  page.cell3.Drag(82, 12, -63, 0);
+  page.cell2.Drag(63, 13, -59, 2);
+  page.cell.Drag(145, 16, -140, -5);
+  cell = page.cell5;
+  cell.Drag(119, 12, -114, 1);
+  page.panelMsOfficeInstallation.Click();
+  page.Wait();
+  aqObject.CheckProperty(page.cell6, "contentText", cmpEqual, "Closed");
+  aqObject.CheckProperty(page.panelINeedToOffline, "contentText", cmpEqual, "Creating the VPN for VM");
+  let cell2 = page.cell11;
+  cell2.Drag(2, 11, 112, 1);
+  aqObject.CheckProperty(cell2, "contentText", cmpEqual, "Pravinkumar Raut");
+  let textNode = page.textnodePravinkumarRaut;
+  textNode.Drag(32, 8, 117, 1);
+  aqObject.CheckProperty(textNode, "contentText", cmpEqual, "Pravinkumar Raut");
+  page.cell8.Drag(3, 9, 125, -2);
+  cell.Drag(4, 13, 109, -2);
+  page.cell9.Drag(4, 11, 166, 5);
+  page.time1111211326432.Drag(1, 8, 120, -1);
+  aqObject.CheckProperty(page.panelCreatingTheVpnForVm, "contentText", cmpEqual, "Creating the VPN for VM\nDone");
+  textNode = page.textnodeClosedBy;
+  textNode.Drag(322, 15, 44, 4);
+  aqObject.CheckProperty(textNode, "contentText", cmpEqual, "Closed by\nBhushan Adhau\nwith status of Closed\n10/11/21 17:01:21");
+  textNode = page.textnodeMsOfficeInstallation;
+  textNode.Drag(1, 10, 159, 5);
+  aqObject.CheckProperty(textNode, "contentText", cmpEqual, "Creating the VPN");
+  page.textnodeTickets.Drag(264, 14, -67, 1);
+  aqObject.CheckProperty(page.textnode578835, "contentText", cmpEqual, "#578835");
+  aqObject.CheckProperty(page.linkSignOut, "contentText", cmpEqual, "Sign Out");
+}
